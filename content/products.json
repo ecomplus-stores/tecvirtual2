@@ -13,6 +13,11 @@
       }
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/empresa-segura-loja-transfer.jpg",
+      "link": "https://www.reclameaqui.com.br/empresa/onze-onine/"
+    },
+    {
       "type": "related-products",
       "title": "Produtos relacionados"
     },

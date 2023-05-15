@@ -2,13 +2,23 @@
 // load footer options and contacts from content
 const footer = _.cms('footer') || {}
 const contacts = _.cms('contacts') || {}
-const themeCustom = _.settings.theme.custom || ''
+
+// social networks handled by contacts
+const networksWithColors = [
+  ['facebook', '#3b5998'],
+  ['youtube', '#ff0000'],
+  ['instagram', '#e1306c'],
+  ['twitter', '#1da1f2'],
+  ['tiktok', '#000000'],
+  ['pinterest', '#bd081c'],
+  ['linkedin', '#0073b1']
+]
 %>
 
 <footer class="footer py-3 py-lg-4 py-xl-5">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-auto order-<%= themeCustom === 'ecom-beauty' ? '' : 'lg-'%>last pl-xl-4">
+      <div class="col-12 col-lg-auto l-xl-4">
         <div class="footer__contacts">
           <% if (footer.contacts.title) { %>
             <div class="footer__title">
@@ -67,7 +77,19 @@ const themeCustom = _.settings.theme.custom || ''
 
           <% if (footer.contacts.socials) { %>
             <p class="footer__social">
-              <%- await include('@/layout/inc/networks', { _, contacts }) %>
+              <% networksWithColors.forEach(([network, color]) => { %>
+                <% if (contacts[network]) { %>
+                  <a
+                    href="<%= contacts[network] %>"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="<%= network %>"
+                    style="color: <%= color %>"
+                  >
+                    <i class="fab fa-<%= network %>"></i>
+                  </a>
+                <% } %>
+              <% }) %>
             </p>
           <% } %>
         </div>
@@ -156,45 +178,35 @@ const themeCustom = _.settings.theme.custom || ''
         </div>
       <% } %>
 
-      <div class="col-12 col-xl order-<%= themeCustom === 'ecom-beauty' ? '' : 'lg-'%>first">
+      <div class="col-12 col-xl">
         <h2 class="footer__title footer__store">
-          <%= footer.description.title || _.settings.name %>
+          Siga-nos
         </h2>
-        <p><%- footer.description.text || _.settings.description %></p>
+        <p><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Foficialtecvirtual&tabs&width=320&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=348301289312384" width="320" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></p>
+      </div>
 
-        <div class="mt-4 mb-3">
-          <p class="footer__payment-methods">
+    </div>
+
+    <div class="pag-new">
+      <div class="mt-12 mb-12">
+          <div class="footer__payment-methods">
             <% Object.keys(footer.payment_methods).forEach(method => { %>
               <% if (footer.payment_methods[method]) { %>
                 <i class="pay-icon pay-icon--<%= method %>"></i>
               <% } %>
             <% }) %>
-          </p>
+          </div>
           <div class="footer__stamps">
             <%- await include(`@/sections/stamps`, { _, opt: { stamps: footer.stamps } }) %>
+            <div id="ra-verified-seal"><script type="text/javascript" id="ra-embed-verified-seal" src="https://s3.amazonaws.com/raichu-beta/ra-verified/bundle.js" data-id="LU93Tlhma05VNTJHdEsxUjpvbnplLW9uaW5l" data-target="ra-verified-seal" data-model="2"></script></div>
           </div>
         </div>
-      </div>
     </div>
 
     <div class="footer__credits">
       <span>
         <%= footer.credits || `© ${_.store.name} / ${contacts.address} / ${contacts.doc_number}` %>
       </span>
-      <% if (themeCustom === 'ecom-beauty') { %>
-        <div class="ecom-credits-container">
-          <div class="ecom-credits">
-            <a href="https://e-com.plus" target="_blank" rel="noopener">
-              <img
-                src="https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/ecom-credits-white.png"
-                alt="E-Com Plus"
-                width="125.42"
-                height="20"
-              >
-            </a>
-          </div>
-        </div>
-      <% } %>
       <button
         id="go-to-top"
         class="btn btn-primary ml-3"
@@ -204,7 +216,18 @@ const themeCustom = _.settings.theme.custom || ''
         <i class="i-chevron-up"></i>
       </button>
     </div>
-  </div>  
+  </div>
 </footer>
 
-<%- await include('@/layout/inc/ecom-credits') %>
+<div class="ecom-credits">
+  <a href="https://e-com.plus" target="_blank" rel="noopener">
+    Powered by
+    <img
+      src="https://ecom.nyc3.digitaloceanspaces.com/brand/plus/198x43.png"
+      alt="E-Com Plus"
+      width="92"
+      height="19.98"
+    >
+  </a>
+  <a href="https://fwragenciadigital.com.br/" target="_blank" rel="noopener">Design <img src="/img/uploads/fwr.png" alt="FWR Agência Digital"></a>
+</div>

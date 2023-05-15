@@ -1,17 +1,13 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 50%!",
-    "link": "/promotion"
+    "text": "Todo site com parcelamento até 6X Sem Juros | 10% OFF via PIX",
+    "link": ""
   },
   "contacts_stripe": {
     "pages": [
       {
         "title": "Sobre nós",
         "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
       }
     ],
     "phone_wpp": true,
@@ -22,9 +18,9 @@
     "random": 6,
     "full_width": false
   },
-  "centralized_logo": false,
-  "desktop_megamenu": false,
   "search_input": true,
-  "alphabetical_order_submenu": false,
-  "full_width_submenu": false
+  "desktop_megamenu": true,
+  "centralized_logo": true,
+  "alphabetical_order_submenu": true,
+  "full_width_submenu": true
 }
