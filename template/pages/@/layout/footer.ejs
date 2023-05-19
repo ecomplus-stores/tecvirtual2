@@ -74,24 +74,6 @@ const networksWithColors = [
               </li>
             <% } %>
           </ul>
-
-          <% if (footer.contacts.socials) { %>
-            <p class="footer__social">
-              <% networksWithColors.forEach(([network, color]) => { %>
-                <% if (contacts[network]) { %>
-                  <a
-                    href="<%= contacts[network] %>"
-                    target="_blank"
-                    rel="noopener"
-                    aria-label="<%= network %>"
-                    style="color: <%= color %>"
-                  >
-                    <i class="fab fa-<%= network %>"></i>
-                  </a>
-                <% } %>
-              <% }) %>
-            </p>
-          <% } %>
         </div>
       </div>
 
@@ -182,7 +164,23 @@ const networksWithColors = [
         <h2 class="footer__title footer__store">
           Siga-nos
         </h2>
-        <p><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Foficialtecvirtual&tabs&width=320&height=150&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=348301289312384" width="320" height="150" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></p>
+        <% if (footer.contacts.socials) { %>
+          <p class="footer__social">
+            <% networksWithColors.forEach(([network, color]) => { %>
+              <% if (contacts[network]) { %>
+                <a
+                  href="<%= contacts[network] %>"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="<%= network %>"
+                  style="color: <%= color %>"
+                >
+                  <i class="fab fa-<%= network %>"></i>
+                </a>
+              <% } %>
+            <% }) %>
+          </p>
+        <% } %>
       </div>
 
     </div>
