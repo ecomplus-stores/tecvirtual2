@@ -71,10 +71,10 @@
     },
     {
       "type": "brands-carousel",
-      "limit": 30,
+      "limit": 48,
       "offset": 0,
       "autoplay": 0,
-      "sort": null
+      "sort": "name"
     },
     {
       "type": "custom-html",
