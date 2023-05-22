@@ -5,7 +5,9 @@
       "enabled": true
     },
     {
-      "type": "page-title"
+      "type": "page-title",
+      "title": "Loja Transfer",
+      "description": "Inovação e tecnologia em cada produto que você compra."
     },
     {
       "type": "document-banner",
