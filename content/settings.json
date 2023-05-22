@@ -2,7 +2,6 @@
   "domain": "www.lojatransfer.com.br",
   "currency_symbol": "R$",
   "primary_color": "#222831",
-  "repository": "ecomplus-stores/tecvirtual2",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
