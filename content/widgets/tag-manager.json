@@ -1,12 +1,13 @@
 {
   "pkg": "@ecomplus/widget-tag-manager",
-  "active": true,
+  "active": false,
   "desktopOnly": false,
   "enableCheckout": true,
   "options": {
     "gtmContainerId": "GTM-MDRBLS9",
     "dataLayerVar": "dataLayer",
-    "partytown": true
+    "partytown": true,
+    "isDebug": true
   },
   "headAppend": "src/append/head",
   "bodyAppend": "src/append/body"
