@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.41b528e6c8ccc907af96be4feb2c4f74.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.19bf69eed049cd70385431c80fb3c87c.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.5e4744e81571a50a41d94bbbfac31b16.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.d9c0140665dc389b2e6172c00ed6fc93.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.1a345316670dd316efe52432e010f2f4.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Transfer",
+  "short_name": "lojatransfer",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Fundada em 2023, por profissionais com mais de 10 anos de experiência nas áreas de transporte de mercadorias, a Loja Transfer, se destaca por promover a melhor experiência de compra e importação aos seus clientes, tem como prioridade valorizar  um atendimento humanizado e dedicado ao longo de todo processo de compra, entrega, e pós-venda de seu produtos. ",
+  "background_color": "#ffffff",
+  "theme_color": "#222831"
+}
