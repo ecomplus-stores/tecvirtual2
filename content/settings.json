@@ -1,16 +1,16 @@
 {
-  "domain": "www.lojatransfer.com.br",
+  "domain": "www.stocknacional.com.br",
   "currency_symbol": "R$",
   "primary_color": "#222831",
-  "repository": "ecomplus-stores/tecvirtual2",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
   },
   "bg_color": "#ffffff",
-  "logo": "/img/uploads/logo-sem-fundo-transfer.png",
-  "name": "Transfer",
-  "short_name": "lojatransfer",
+  "repository": "ecomplus-stores/tecvirtual2",
+  "logo": "/img/uploads/logo-stock-nacional.png",
+  "name": "Stock Nacional",
+  "short_name": "stocknacional",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
@@ -21,6 +21,6 @@
   "secondary_color": "#393e46",
   "icon": "/img/uploads/logo-sem-fundo-transfer.png",
   "store_id": 51399,
-  "description": "Fundada em 2023, por profissionais com mais de 10 anos de experiência nas áreas de transporte de mercadorias, a Loja Transfer, se destaca por promover a melhor experiência de compra e importação aos seus clientes, tem como prioridade valorizar  um atendimento humanizado e dedicado ao longo de todo processo de compra, entrega, e pós-venda de seu produtos. ",
+  "description": "Fundada em 2023, por profissionais com mais de 10 anos de experiência nas áreas de transporte de mercadorias, a Stock Nacional, se destaca por promover a melhor experiência de compra e importação aos seus clientes, tem como prioridade valorizar  um atendimento humanizado e dedicado ao longo de todo processo de compra, entrega, e pós-venda de seu produtos. ",
   "large_icon": "/img/uploads/icon-loja-transfer.png"
 }
