@@ -5,7 +5,9 @@
       "enabled": true
     },
     {
-      "type": "page-title"
+      "type": "page-title",
+      "title": "Categorias Stock Nacional",
+      "description": "Descubra as últimas inovações em tecnologia para tornar sua vida mais conectada e eficiente."
     },
     {
       "type": "document-banner",
