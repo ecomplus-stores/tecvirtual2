@@ -1,18 +1,22 @@
 {
   "shipping": {
     "show": true,
-    "text": "Entregamos para todo o Brasil"
+    "text": "Envios para todo o Brasil",
+    "title": "Correios Sedex ou Pac"
   },
   "installments": {
     "show": true,
-    "text": "Parcele sem juros"
+    "text": "Parcele em até 5x sem juros",
+    "title": "Pagamento Facilitado"
   },
   "exchange": {
     "show": true,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "text": "Até 7 dias após o recebimento",
+    "title": "Troca e Devolução"
   },
   "promo": {
     "show": true,
-    "text": "Diferentes promoções ao longo do ano!"
+    "text": "Receba um código de rastreio!",
+    "title": "Pedido Monitorado"
   }
 }
