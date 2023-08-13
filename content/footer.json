@@ -1,7 +1,7 @@
 {
   "description": {
-    "title": "",
-    "text": ""
+    "title": "Stock Nacional",
+    "text": "Eletrônicos nacionais e importados, receptores de tv e acessórios de alta qualidade para todas as idades."
   },
   "links_1": {
     "list_pages": true,
@@ -11,7 +11,9 @@
   "links_2": {
     "list_categories": true,
     "title": "Categorias",
-    "list": []
+    "list": [
+      {}
+    ]
   },
   "contacts": {
     "title": "Contatos",
@@ -26,6 +28,10 @@
     },
     {
       "src": "/img/uploads/selo-ssl.png"
+    },
+    {
+      "src": "/img/uploads/google-report.png",
+      "link": "https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fstocknacional.com.br%2F&hl=pt_BR"
     }
   ],
   "payment_methods": {
