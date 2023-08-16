@@ -1,5 +1,5 @@
 {
-  "domain": "www.stocknacional.com.br",
+  "domain": "https://www.lojatransfer.com.br/",
   "currency_symbol": "R$",
   "primary_color": "#222831",
   "theme": {
@@ -8,19 +8,19 @@
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/tecvirtual2",
-  "logo": "/img/uploads/logo-site-stock-nacional.png",
-  "name": "Stock Nacional",
-  "short_name": "Stock Nacional",
+  "logo": "/img/uploads/logo-sem-fundo-transfer.png",
+  "name": "Loja Transfer",
+  "short_name": "Loja Transfer",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
   "font_family": "_",
-  "favicon": "/img/uploads/d_nq_np_777958-mlb31055305808_062019-o.jpg",
+  "favicon": "/img/uploads/icon-loja-transfer.png",
   "icons_font": "_",
   "country_code": "BR",
   "secondary_color": "#393e46",
-  "icon": "/img/uploads/logo-padrao-stock-nacional.png",
+  "icon": "/img/uploads/logo-sem-fundo-transfer.png",
   "store_id": 51399,
-  "description": "Convidamos você a explorar nossa loja de eletrônicos, esclarecer suas dúvidas por meio do nosso canal de atendimento no WhatsApp e adquirir nossos produtos. E para tornar sua experiência ainda melhor, fique atento às diferentes promoções ao longo do ano. É um prazer tê-lo conosco na Stock Nacional!",
-  "large_icon": "/img/uploads/d_nq_np_777958-mlb31055305808_062019-o.jpg"
+  "description": "Convidamos você a explorar nossa loja de eletrônicos, esclarecer suas dúvidas por meio do nosso canal de atendimento no WhatsApp e adquirir nossos produtos. E para tornar sua experiência ainda melhor, fique atento às diferentes promoções ao longo do ano. É um prazer tê-lo conosco na Loja Transfer!",
+  "large_icon": "/img/uploads/icon-loja-transfer.png"
 }
