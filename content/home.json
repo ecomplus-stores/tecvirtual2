@@ -77,7 +77,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div class=\"texto-footer\">\n\t<div class=\"insta-footer\">\n\t\t<div class=\"title-insta\">@lojatransfer</div>\n\t\t\t<div id=\"instagram-feed\">\n            <!-- LightWidget WIDGET --><script src=\"https://cdn.lightwidget.com/widgets/lightwidget.js\"></script><iframe src=\"https://cdn.lightwidget.com/widgets/9cefffa3df6455e9a64ba9b0ab413813.html\" scrolling=\"no\" allowtransparency=\"true\" class=\"lightwidget-widget\" style=\"width:100%;border:0;overflow:hidden;\"></iframe>\n            </div>\n\t</div>\n\t\t\n\t\n\n\t</div>"
+      "html": "\t</div>"
     }
   ]
 }
