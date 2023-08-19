@@ -1,6 +1,6 @@
 {
   "description": {
-    "title": "Loja Transfer",
+    "title": "Stock Nacional",
     "text": "Eletrônicos nacionais e importados, receptores de tv e acessórios de alta qualidade para todas as idades."
   },
   "links_1": {
@@ -11,9 +11,7 @@
   "links_2": {
     "list_categories": true,
     "title": "Categorias",
-    "list": [
-      {}
-    ]
+    "list": []
   },
   "contacts": {
     "title": "Contatos",
@@ -25,27 +23,31 @@
   "stamps": [
     {
       "src": "/img/uploads/ssl-safe.png"
+    },
+    {
+      "src": "/img/uploads/google-report.png",
+      "link": "https://transparencyreport.google.com/safe-browsing/search?url=www.stocknacional.com.br&hl=pt_BR"
     }
   ],
   "payment_methods": {
     "bb": false,
-    "visa": false,
+    "visa": true,
     "boleto": false,
     "aura": false,
     "banrisul": false,
-    "elo": false,
-    "hipercard": false,
+    "elo": true,
+    "hipercard": true,
     "hsbc": false,
     "bradesco": false,
     "santander": false,
-    "mastercard": false,
+    "mastercard": true,
     "paypal": true,
     "citibank": false,
     "hiper": false,
     "diners": false,
     "mais": false,
     "pix": true,
-    "amex": false,
+    "amex": true,
     "itau": false
   },
   "credits": ""
