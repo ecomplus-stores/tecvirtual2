@@ -22,9 +22,6 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/ssl-safe.png"
-    },
-    {
       "src": "/img/uploads/google-report.png",
       "link": "https://transparencyreport.google.com/safe-browsing/search?url=www.stocknacional.com.br&hl=pt_BR"
     }
