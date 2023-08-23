@@ -1,5 +1,6 @@
 <% if (Array.isArray(opt.stamps)) { %>
   <ul class="stamps">
+    <div id="ra-verified-seal"><script type="text/javascript" id="ra-embed-verified-seal" src="https://s3.amazonaws.com/raichu-beta/ra-verified/bundle.js" data-id="bWpweU91OVJYZXhidnh6MDpkdW8tcGxhY2U=" data-target="ra-verified-seal" data-model="2"></script></div>
     <% opt.stamps.forEach(({ src, alt, link, ...dimensions }) => {
       const { width, height } = _.tryImageSize(src, dimensions)
       const imgHtml = `<img data-src="${src}" alt="${alt}" class="lozad fade"` +
