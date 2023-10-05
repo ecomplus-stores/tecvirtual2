@@ -1,5 +1,5 @@
 {
-  "domain": "https://stocknacional.com.br/",
+  "domain": "https://ocomprei.com",
   "currency_symbol": "R$",
   "primary_color": "#222831",
   "theme": {
@@ -8,19 +8,19 @@
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/tecvirtual2",
-  "logo": "/img/uploads/whats.png",
-  "name": "Loja Teste",
-  "short_name": "Stock Nacional",
+  "logo": "/img/uploads/santana-1000-x-1000-px-.png",
+  "name": "O Comprei",
+  "short_name": "O Comprei",
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
   "font_family": "_",
-  "favicon": "/img/uploads/carrinho.png",
+  "favicon": "/img/uploads/inserir-um-titulo.png",
   "icons_font": "_",
   "country_code": "BR",
   "secondary_color": "#393e46",
-  "icon": "/img/uploads/carrinho.png",
+  "icon": "/img/uploads/inserir-um-titulo-1-.png",
   "store_id": 51399,
-  "description": "Convidamos você a explorar nossa loja de eletrônicos, esclarecer suas dúvidas por meio do nosso canal de atendimento no WhatsApp e adquirir nossos produtos. E para tornar sua experiência ainda melhor, fique atento às diferentes promoções ao longo do ano. É um prazer tê-lo!",
-  "large_icon": "/img/uploads/carrinho.png"
+  "description": "Explore nossa loja de eletrônicos. Fique atento às diferentes promoções ao longo do ano. É um prazer tê-lo aqui na O Comprei!",
+  "large_icon": "/img/uploads/inserir-um-titulo-1-.png"
 }
