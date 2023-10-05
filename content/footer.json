@@ -1,6 +1,6 @@
 {
   "description": {
-    "title": "Stock Nacional",
+    "title": "Loja Teste",
     "text": "Eletrônicos nacionais e importados, receptores de tv e acessórios de alta qualidade para todos."
   },
   "links_1": {
@@ -23,7 +23,7 @@
   "stamps": [
     {
       "src": "/img/uploads/google-report.png",
-      "link": "https://transparencyreport.google.com/safe-browsing/search?url=www.stocknacional.com.br&hl=pt_BR"
+      "link": ""
     }
   ],
   "payment_methods": {
