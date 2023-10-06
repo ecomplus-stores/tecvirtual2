@@ -24,6 +24,9 @@
     {
       "src": "/img/uploads/google-report.png",
       "link": "https://transparencyreport.google.com/safe-browsing/search?url=www.ocomprei.com&hl=pt_BR"
+    },
+    {
+      "src": "/img/uploads/ssl-seguro.png"
     }
   ],
   "payment_methods": {
