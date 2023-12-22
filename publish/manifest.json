@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.7b4637b95f62e07dcd87097982d3daec.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.b8ebb342c4ab4edf3cd153588a2321e7.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.3f5a49619b9e8dfcd15c447f99c84937.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.1877954464f91c198760bff81412e32b.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.bb748bc503a521363df9ba39ef7628d6.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "O Comprei",
+  "short_name": "O Comprei",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Explore nossa loja de eletrônicos. Fique atento às diferentes promoções ao longo do ano. É um prazer tê-lo aqui na O Comprei!",
+  "background_color": "#ffffff",
+  "theme_color": "#222831"
+}
